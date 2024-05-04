@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0%;
+    text-align: center;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+nav{
+    text-align: right;
+}
+.icono{
+    width: 70px;
+    transition: 1s;
+}
+.icono:hover{
+    width: 80px;
+}
+.art1{ 
+    background-color: #f2f2f2; 
+    height: 200px;
+}
+.sec1{
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.h4sec1{
+    color: black;
+}
+.h1sec1{
+    color: #f2b705;
+    font-size: 24px;
+}
+.sec2{
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.sec2>img{
+    width: 300px;
+    transition: 1s;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(255, 251, 251);
+    
+}
+.sec2>img:hover{
+width: 325px;
+box-shadow: 2px 2px 15px black;
+
+}
+.art2{
+    background-color: #f2b705;
+    height: 400px;
+}
+.strart2{
+    float: left;
+    width: 100%;
+    font-size: 25px;
+}
+.olvido{
+    height:250px;
+    width: 33.33%;
+    float: left;
+
+}
+.olvido>img{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px black;
+    transition: transform 0.2s;
+}
+.olvido>img:hover{
+    transform:scale(1.1,1.1)
+}
+.sec3{
+    height: 250px;
+    width: 33.33%;
+    float: left;
+}
+.sec3>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px black; 
+    transition: transform 0.2s;
+
+}
+.sec3>img:hover{
+    transform: scale(1.1,1.1);
+}
+.sec4{
+    height: 250px; 
+    width: 33.33%; 
+    float: left;
+}
+.sec4>img{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px black; 
+    transition: transform 0.2s;
+}
+.sec4>img:hover{
+    transform: scale(1.1,1.1);
+
+}
+.art3{
+    background-color: #f2f2f2; 
+    height: 400px;
+}
+.strart3{
+    float: left;
+    width: 100%;
+}
+.sec5{
+    height: 320px;
+    width: 40%;float: left;
+}
+.sec5>img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px black; 
+}
+.sec6{
+    height: 320px;
+    width: 60%; 
+    float: left;
+    font-size: 14px;
+    text-align: left;
+}
+.sec7{
+    background-color: #f2b705;
+    height: 400px;
+}
+.psec7{
+    text-align: left;
+}
+.p2sec7{
+    text-align: left;
+}
+.sec8{
+    height: 300px;
+    width: 100%;
+}
+.divform{
+    height: 160px;
+    width: 50%;
+    float: left;
+}
+.div2sec8{
+    height: 160px; 
+    width: 50%;
+    float: left;
+}
+.div3sec8{
+    width: 100%;
+}
+.div3sec8 >input{
+    background-color: black;
+    color: white; 
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.5s linear;
+    transition: color 0.5 linear;
+}
+.div3sec8>input:hover{
+background-color: #f2f2f2;
+color: black;
+}
+footer{
+    background-color: #f2f2f2;
+    height: 70px;
+}
+textarea{
+    resize: none;
+}
